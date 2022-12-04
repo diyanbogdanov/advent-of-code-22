@@ -1,7 +1,7 @@
 import day3 from './index';
 
 describe('On Day 3', () =>{
-    it(`part1 is calculated working`, ()=>{
+    it(`part1 is calculated correctly`, ()=>{
         expect(day3.solveForPartOne(`
         vJrwpWtwJgWrhcsFMMfFFhFp
         jqHRNqRjqzjGDLGLrsFMfFZSrLrFZsSL
@@ -11,7 +11,8 @@ describe('On Day 3', () =>{
         CrZsJsPPZsGzwwsLwLmpwMDw
         `)).toBe('157');
     });
-    it(`part2 is calculated working`, ()=>{
+
+    it(`part2 is calculated correctly`, ()=>{
         expect(day3.solveForPartTwo(`
         vJrwpWtwJgWrhcsFMMfFFhFp
         jqHRNqRjqzjGDLGLrsFMfFZSrLrFZsSL
